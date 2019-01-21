@@ -1,7 +1,7 @@
 ---
 title: "R Markdown and Leaflet"
 author: "Krishna"
-date: "1/21/2019"
+date: "January 21st 2019"
 layout: page
 output:
   html_document: 
@@ -25,6 +25,8 @@ library(leaflet)
 ```
 
 Create map for Chesapeake Bay Bridge Tunnel
+
+Date : January, 21<sup>st</sup> 2019.
 
 ```{r}
 cbbtlink <- c("<a href= 'http://www.cbbt.com/' >Chesapeake Bay Bridge Tunnel</a>")
