@@ -2,7 +2,7 @@
 title: "R Markdown and Leaflet"
 author: "Krishna"
 date: "1/21/2019"
-layout: default
+layout: page
 output:
   html_document: 
     keep_md: yes
