@@ -1,0 +1,36 @@
+---
+title: "R_Markdown_&_Plotly"
+author: "Krishna"
+date: "1/23/2019"
+output:
+  slidy_presentation: default
+---
+
+## Summary
+
+This plotly analysis provides insight into admissions into University of California, Berkeley based on gender into various departments
+
+## Load necessary libraries
+
+
+```{r}
+data(UCBAdmissions)
+library(plotly)
+```
+
+## Explore data and format it, if necessary
+
+```{r}
+str(UCBAdmissions)
+ucb <- as.data.frame(UCBAdmissions)
+str(ucb)
+head(ucb)
+```
+
+## Generate Plotly interactive plot for Dept Vs Freq of Admissions with Gender & Admission disposition
+
+```{r}
+plot_ly(ucb, x=~Dept, y=~Freq, color=~Gender, colors="Set1", size=~Freq, 
+        text=~paste("Gender: ", Gender, ", Admit Disp: ", Admit), type="scatter", mode="markers") %>%
+        layout(title = "Univ of Cali Berkeley, Dept Vs Admission Freq & Gender & Admission disp")
+```
