@@ -29,7 +29,7 @@ str(ChickWeight)
 
 Shiny Web App Source code is uploaded to Github and link is provided below.
 
-https://github.com/krishnaitdbg/DDP_WK4_Project/DDPWK4_ShinyWebApp_ChickWgts
+https://github.com/krishnaitdbg/DDP_WK4_Project/tree/master/DDPWK4_ShinyWebApp_ChickWgts
 
 ### Analysis output 
 
