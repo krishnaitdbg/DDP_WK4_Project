@@ -1,0 +1,12 @@
+name: DDPWK4_ShinyWebApp_ChickWgts
+title: DDPWK4_ShinyWebApp_ChickWgts
+username:
+account: krishnaitdbg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 668097
+bundleId: 1838696
+url: https://krishnaitdbg.shinyapps.io/DDPWK4_ShinyWebApp_ChickWgts/
+when: 1548526922.09199
+asMultiple: FALSE
+asStatic: FALSE

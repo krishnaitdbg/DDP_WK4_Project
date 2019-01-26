@@ -1,0 +1,50 @@
+---
+title: "DDPWK4_ShinyWebApp_ChickWgts"
+author: "Krishna"
+date: "1/26/2019"
+output: slidy_presentation
+---
+
+## Summary
+
+This Shiny Web App predicts Chick Weight over Time based on Diet.
+
+  1. Data is used for this analysis is from R dataset 'ChickWeight'
+  2. This analysis does linear regression model to predict chick weight over time based on diet 
+     provided by slider input.
+
+## Data used for this analysis
+
+Chick Weight Data is loaded from 'R' data package.
+
+```{r}
+data(ChickWeight)
+dim(ChickWeight)
+str(ChickWeight)
+```
+
+## Important Links
+
+### Source Code
+
+Shiny Web App Source code is uploaded to Github and link is provided below.
+
+https://github.com/krishnaitdbg/DDP_WK4_Project/DDPWK4_ShinyWebApp_ChickWgts
+
+### Analysis output 
+
+Shiny web App is uploaded to Shiny server and link is provided below.
+
+https://krishnaitdbg.shinyapps.io/DDPWK4_ShinyWebApp_ChickWgts/
+
+### Supporting Documentation
+
+Slidify Documentation for this Shiny web app analysis is uploaded to git hub pages and link is provided below.
+
+https://krishnaitdbg.github.io/DDP_WK4_Project/DDPWK4_ShinyWebApp_ChickWgts.html
+
+Thank you for the visit.
+
+
+
+
